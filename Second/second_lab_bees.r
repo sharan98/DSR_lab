@@ -6,3 +6,4 @@ honey_bee = c(12, 13, 16, 9, 10)
 plant_names = c("Thistle", "Vipers", "Golden rain", "Yellow alfalfa", "blackberry")
 
 df = data.frame(buff_tail, garden_bee, red_tail, carder_bee, honey_bee, row.names = plant_names)
+df

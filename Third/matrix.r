@@ -9,3 +9,6 @@ bees <- c(buff_tail, garden_bee, red_tail, carder_bee, honey_bee)
 mat = matrix(bees, 5, 5, byrow=TRUE, dimnames=list(beesnames,plant_names))
 mat
 df = data.frame(buff_tail, garden_bee, red_tail, carder_bee, honey_bee, row.names = plant_names)
+
+l = list(num = c(1L, 2L, 4L), s = c("hello", "world", "!"), real = c(4.7, 6.3, 7.7, 8.1))
+l
